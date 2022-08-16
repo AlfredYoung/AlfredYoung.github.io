@@ -113,9 +113,8 @@ theme: matery
 deploy:
 - type: git
   repository:
-    github: git@github.com:godweiyang/godweiyang.github.io.git
-    coding: git@e.coding.net:godweiyang/godweiyang.git
-  branch: master
+    github: git@github.com:AlfredYoung/AlfredYoung.github.io.git
+  branch: main
 - type: baidu_url_submitter
 
 
