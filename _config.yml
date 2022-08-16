@@ -139,6 +139,6 @@ live2d:
 
 baidu_url_submit:
   count: 100
-  host: lfredYoung.github.io.git
+  host: AlfredYoung.github.io.git
   token: jp7MKvOw74Yh3F09
   path: baidu_urls.txt
