@@ -110,13 +110,16 @@ theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# deploy:
+# - type: git
+#   repository:
+#     github: git@github.com:AlfredYoung/AlfredYoung.github.io.git
+#   branch: hexo
+# - type: baidu_url_submitter
 deploy:
-- type: git
-  repository:
-    github: git@github.com:AlfredYoung/AlfredYoung.github.io.git
+  type: git
+  repo: git@github.com:AlfredYoung/AlfredYoung.github.io.git
   branch: hexo
-- type: baidu_url_submitter
-
 
 live2d:
   enable: false
