@@ -73,13 +73,6 @@ ACM-ICPC上海大都会赛
 
 ## 联系方式
 * <b>电子邮箱</b>
-godweiyang@gmail.com
-792321264@qq.com
-* <b>地址</b>
-上海市普陀区中山北路3663号理科大楼B906，邮编200062
-* <b>微信</b>
-godweiyang
-* <b>QQ 技术交流群</b>
-864832264
-
-![](/medias/contact.jpg)
+1150714183@qq.com
+* <b>QQ</b>
+1150714183

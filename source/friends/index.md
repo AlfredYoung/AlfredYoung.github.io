@@ -13,7 +13,7 @@ layout: "friends"
 * **头像：**你的头像地址
 
 例如我的博客友链，大家可以加到自己博客里哦：
-* **名称：**godweiyang
-* **地址：**https://godweiyang.com
-* **简介：**公众号【算法码上来】，分享深度学习与NLP算法
+* **名称：**AlfredYang
+* **地址：**https://AlfredYang.cn
+* **简介：**记录研究生生活
 * **头像：**https://godweiyang.com/medias/avatars/avatar.jpg
