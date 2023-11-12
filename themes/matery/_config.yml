@@ -240,12 +240,14 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner: godweiyang
-  repo: godweiyang.github.io
+  autoExpand: true # 评论是否自动展开
+  owner: AlfredYoung
+  repo: AlfredYoung.github.io
   oauth:
-    clientId: 查教程获取
-    clientSecret: 查教程获取
-  admin: godweiyang
+    clientId: 56eef09abefc5e974528
+    clientSecret: 024827286e22bb55512b2388d9a077260154bf14
+  admin: AlfredYoung
+
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
@@ -273,7 +275,7 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: true
+  enable: false
   appId: 查教程获取
   appKey: 查教程获取
   notify: false
@@ -286,7 +288,7 @@ valine:
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
-  enable: true
+  enable: false
   url: https://github.com/godweiyang/hexo-matery-modified
   title: Fork Me
 
@@ -326,7 +328,7 @@ libs:
     lightgallery: /libs/lightGallery/css/lightgallery.min.css # V1.6.11
     aplayer: /libs/aplayer/APlayer.min.css
     dplayer: /libs/dplayer/DPlayer.min.css
-    gitalk: /libs/gitalk/gitalk.css
+    gitalk: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css
     jqcloud: /libs/jqcloud/jqcloud.css
     tocbot: /libs/tocbot/tocbot.css
   js:
@@ -345,7 +347,7 @@ libs:
     dplayer: /libs/dplayer/DPlayer.min.js
     crypto: /libs/cryptojs/crypto-js.min.js
     echarts: /libs/echarts/echarts.min.js
-    gitalk: /libs/gitalk/gitalk.min.js
+    gitalk: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
     snow: /libs/others/snow.js
