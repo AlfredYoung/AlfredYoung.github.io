@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>杨一帆的博客</title>
+  <title>咸有一德的博客</title>
   
-  <subtitle>平平无奇的小码农</subtitle>
+  <subtitle>一个喜欢历史的程序员</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://AlfredYoung.github.io/"/>
