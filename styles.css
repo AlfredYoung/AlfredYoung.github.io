@@ -74,8 +74,9 @@ button { font: inherit; }
 .entry { display: grid; grid-template-columns: 138px 1fr; gap: 26px; }
 .entry-date { padding-top: 3px; color: var(--faint); font-size: .72rem; line-height: 1.5; }
 .entry-content { min-width: 0; }
+.entry-content--with-logo { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 16px; align-items: start; }
+.entry-details { min-width: 0; }
 .entry-heading { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 16px; align-items: center; }
-.entry-identity { display: flex; min-width: 0; align-items: center; gap: 16px; }
 .entry-logo {
   display: grid;
   flex: 0 0 auto;
@@ -139,8 +140,8 @@ footer { display: flex; justify-content: space-between; gap: 24px; width: min(10
   .resume-section { padding: 52px 0; }
   .entry { grid-template-columns: 1fr; gap: 9px; }
   .entry-heading { align-items: flex-start; }
-  .entry-identity { gap: 13px; }
-  .entry-logo { width: 94px; height: 38px; }
+  .entry-content--with-logo { grid-template-columns: 86px minmax(0, 1fr); gap: 13px; }
+  .entry-logo { width: 86px; height: 36px; }
   .about-copy { padding-left: 0; }
   .work-placeholder { grid-template-columns: 38px 1fr; padding: 22px; }
   .contact { padding-bottom: 76px; }
