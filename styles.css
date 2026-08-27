@@ -71,7 +71,7 @@ button { font: inherit; }
 .resume-section { padding: 64px 0; border-top: 1px solid var(--line); scroll-margin-top: 64px; }
 .section-title { margin: 0 0 40px; font-size: .82rem; font-weight: 600; letter-spacing: -.01em; }
 .entry-list { display: grid; gap: 38px; }
-.entry { display: grid; grid-template-columns: 138px 1fr; gap: 26px; }
+.entry { display: grid; grid-template-columns: 124px 1fr; gap: 18px; }
 .entry-date { padding-top: 3px; color: var(--faint); font-size: .72rem; line-height: 1.5; }
 .entry-content { min-width: 0; }
 .entry-content--with-logo { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 16px; align-items: start; }
