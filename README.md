@@ -1,6 +1,17 @@
-# 博客主题
-博客主题修改自[hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery)，解决了一些bug，做了一些个性化定制。
+# Evan Yang / 杨一帆
 
-# 博客来源
-[参考地址](https://godweiyang.com)
+A minimal bilingual personal website focused on LLM AI Infrastructure and training engine engineering.
 
+## Local development
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+The production-ready static files are written to `dist/`.
